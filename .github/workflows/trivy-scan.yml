@@ -20,6 +20,8 @@ jobs:
           scan-type: 'fs'
           scan-ref: '.'
           scanners: 'vuln'
+          severity: 'CRITICAL'
+          exit-code: '1'
           format: 'table'
           severity: 'CRITICAL,HIGH,MEDIUM,LOW'
           exit-code: '0'
